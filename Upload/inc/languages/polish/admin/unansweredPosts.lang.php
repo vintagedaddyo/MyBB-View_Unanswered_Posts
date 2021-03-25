@@ -1,0 +1,40 @@
+<?php
+/**
+ * This file is part of Unanswered Posts plugin for MyBB.
+ * Copyright (C) 2010-2013 Lukasz Tkacz <lukasamd@gmail.com>
+ * Copyright (C) Vintagedaddyo <vintagedaddyo@gmail.com>
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Lesser General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ */ 
+
+$l['unansweredPostsName'] = 'Tematy bez odpowiedzi';
+$l['unansweredPostsDesc'] = 'Ten plugin dodaje funkcję wyszukiwania tematów bez odpowiedzi dla wszystkich zarejestrowanych użytkowników.';
+
+$l['unansweredPostsGroupDesc'] = 'Ustawienia dotyczące modyfikacji "Tematy bez odpowiedzi"';
+
+$l['unansweredPostsExceptions'] = 'Wykluczone fora';
+$l['unansweredPostsExceptionsDesc'] = 'ID for oddzielone przecinkami, w których nie będą szukane tematy bez odpowiedzi';
+
+$l['unansweredPostsStatusCounter'] = 'Licznik tematów bez odpowiedzi';
+$l['unansweredPostsStatusCounterDesc'] = 'Dodaje przy linku licznik tematów bez odpowiedzi, o ile takie istnieją.';
+
+$l['unansweredPostsStatusCounterHide'] = 'Ukrywanie linku gdy nie ma tematów bez odpowiedzi';
+$l['unansweredPostsStatusCounterHideDesc'] = 'Ta opcja ukrywa adres URL do wyszukiwania wiadomości bez odpowiedzi, gdy nie ma wiadomości bez odpowiedzi.';
+
+$l['unansweredPostsLimit'] = 'Limit wyników dla licznika';
+$l['unansweredPostsLimitDesc'] = 'Limit wyników zapytania szukającego tematów bez odpowiedzi dla licznika.<br /> Zalecana wartość 500 lub mniej - powyżej 10000 będzie automatycznie ograniczane do 500.<br /> Jeżeli wyszukiwarka znajdzie więcej wyników, wyświetli w liczniku informację typu "500+".';
+
+$l['unansweredPostsCounterPages'] = 'Podstrony z aktywnym licznikiem tematów bez odpowiedzi';
+$l['unansweredPostsCounterPagesDesc'] = 'Kody podstron (stała THIS_SCRIPT), na których licznik ma być aktywny. W wypadku braku zawartości licznik będzie aktywny na wszystkich stronach.';

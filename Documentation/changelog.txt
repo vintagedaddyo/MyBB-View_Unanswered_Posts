@@ -1,0 +1,37 @@
+Version 1.6:
+    * minor edits for 1.8 usage
+    * changed hide link for with or without counter
+
+Version 1.5:
+    * Optimizations
+    * Add limiter to query
+
+
+
+Version 1.4
+    * change license to LGPL v3
+    * change plugin sign in hooks  
+    * code cleanup      
+
+
+
+Version 1.3
+    * fix problem with functions names (conflict with View Unread Posts)
+
+
+
+Version 1.2
+    * rewrite to OOP
+    * add unanswered posts counter
+    * compatible with MyBB 1.6.5
+    * improve search security
+
+
+
+Version 1.1
+    * fix in Polish lang file
+
+
+
+Version 1.0
+    * first version
